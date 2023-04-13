@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/technopro/static/css/main.8a4e1950.css",
+    "main.js": "/technopro/static/js/main.e0a72e68.js",
+    "static/js/787.92e05210.chunk.js": "/technopro/static/js/787.92e05210.chunk.js",
+    "static/media/hero-img.png": "/technopro/static/media/hero-img.593960b6732e1ce54f2b.png",
+    "static/media/ts-logo.png": "/technopro/static/media/ts-logo.960e12d2feadca802957.png",
+    "static/media/demo2.png": "/technopro/static/media/demo2.02106ad89478d0b426c0.png",
+    "index.html": "/technopro/index.html",
+    "main.8a4e1950.css.map": "/technopro/static/css/main.8a4e1950.css.map",
+    "main.e0a72e68.js.map": "/technopro/static/js/main.e0a72e68.js.map",
+    "787.92e05210.chunk.js.map": "/technopro/static/js/787.92e05210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a4e1950.css",
+    "static/js/main.e0a72e68.js"
+  ]
+}
