@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+// import './assets/vendor/aos/aos.css'
+// import './assets/vendor/bootstrap/css/bootstrap.min.css'
+// import './assets/vendor/bootstrap-icons/bootstrap-icons.css'
+// import './assets/vendor/boxicons/css/boxicons.min.css'
+// import './assets/vendor/glightbox/css/glightbox.min.css'
+// import './assets/vendor/remixicon/remixicon.css'
+// import './assets/vendor/swiper/swiper-bundle.min.css'
+// import './assets/css/style.css'
+
+// import './App.css';
+
+
+
+
+import Header2 from './layout/Header2';
+import Banner from './components/Banner';
+import Partner from './components/Partner';
+import About from './components/About';
+// import FAQ from './components/FAQ';
+// import Project from './components/Project';
+import ERP from './components/ERP'
+import Services from './components/Services';
+// import CallAction from './components/CallAction';
+// import Gellary from './components/Gellary';
+import Team from './components/Team';
+// import DetailCards from './components/DetailCards';
+import FAQ2 from './components/FAQ2';
+import Contact from './components/Contact';
+import Footer from './layout/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header2 />
+      <main id="main">
+        <Banner />
+        <Partner />
+        <About />
+        {/* <FAQ /> */}
+        {/* <Project /> */}
+        <ERP />
+        <Services />
+        {/* <CallAction /> */}
+        {/* <Gellary /> */}
+        <Team />
+        {/* <DetailCards /> */}
+        <FAQ2 />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
 
